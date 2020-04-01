@@ -1,0 +1,9 @@
+.center{
+    width: 760px;
+    margin: 0 auto;
+}
+
+canvas {
+    margin: auto;
+    position: relative;
+}
