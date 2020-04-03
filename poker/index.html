@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="modal" id="modal">
+        <p>Покер</p>
+        <button type="button" class="start" id="start">Начать игру</button>
+    </div>
+    <div class="content" id="content">
+        <div class="field">
+            <div class="btn-block">
+                <button class="getCard" id="getCard">Взять карту</button>
+                <p class="article">Чтобы сделать ход нужно взять карту и кликнуть по ней</p>
+            </div>
+            <div class="container" id="gamefield"></div>
+        </div>
+    </div>
+
+    <!-- <script src="https://cdn.rawgit.com/konvajs/konva/4.2.2/konva.min.js"></script> -->
+    <script src="lib/konva.min.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>

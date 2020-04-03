@@ -75,10 +75,7 @@ var game = {
             }
         }, this);
 
-
-
         this.ctx.fillText("SCORE: " + this.score, 15, this.height - 15);
-
     },
     update: function() {
         if (this.ball.collide(this.platform)) {
